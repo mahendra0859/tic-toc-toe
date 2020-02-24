@@ -1,27 +1,17 @@
-# MyApp
+# Tic-Tac-Toe - Angular , PWA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+- npm install
+- npm start
+- localhost:4200
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Youtube Link : https://www.youtube.com/watch?v=G0bBLvWXBvc
+* Nebular Theme Link : https://akveo.github.io/nebular/
+* Adding Nebular to angular project :
+  1. ng add @nebular/theme
+  2. Which Nebular theme do you want to use: cosmic
+  3. Use customizable scss themes? Yes
+  4. Set up browser animations for Nebular? Yes
+* Adding a service worker to angular project :
+  1. ng add @angular/pwa
+* Hosting in hithub pages : https://github.com/angular/angular-cli/wiki/stories-github-pages
+  1. ng build --prod --output-path docs --base-href PROJECT_NAME
