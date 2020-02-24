@@ -14,4 +14,6 @@
 * Adding a service worker to angular project :
   1. ng add @angular/pwa
 * Hosting in hithub pages : https://github.com/angular/angular-cli/wiki/stories-github-pages
-  1. ng build --prod --output-path docs --base-href PROJECT_NAME
+  1. ng build --prod --output-path docs --base-href PROJECT_NAME  
+     OR
+  1. ng build --prod --output-path docs
